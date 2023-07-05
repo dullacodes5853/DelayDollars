@@ -6,6 +6,8 @@ import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Alert from '@mui/material/Alert';
 import './landingpage.css';
+import airportImage from '../../../assets/airport.jpg';
+
 
 function LandingPage() {
   const [fullName, setFullName] = useState('');
