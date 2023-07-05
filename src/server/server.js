@@ -50,7 +50,6 @@ app.get('/register', (req, res) => {
   res.send('GET request received on /register');
 });
 
-app.listen(port, 'delaydollarscorp.com', () => {
+app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-

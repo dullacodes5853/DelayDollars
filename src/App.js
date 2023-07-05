@@ -4,7 +4,6 @@ import Navbar from './components/Navbar/index';
 import LandingPage from './components/LandingPage/index';
 import PassengerRights from './components/PassengerRights/index';
 import TermsAndConditions from './components/TermsAndConditions/index';
-
 function App() {
   const [fullName, setFullName] = useState('');
   const [ticketNumber, setTicketNumber] = useState('');
