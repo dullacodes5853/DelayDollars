@@ -1,18 +1,6 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
-import backgroundImage from '../assets/cancelled.jpg';
-const Background = styled('div')({
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  height: '100vh',
-  width: '100vw',
-  backgroundImage: `url(${backgroundImage})`,
-  backgroundSize: 'cover',
-  filter: 'blur(8px)',
-  zIndex: -1,
-});
 
 const TextContainer = styled(Box)({
   backgroundColor: 'rgba(255, 255, 255, 0.7)', // white with 70% opacity
@@ -23,7 +11,6 @@ const TextContainer = styled(Box)({
 function PassengerRights() {
   return (
     <>
-      <Background />
       <TextContainer m={4}>
         <Typography variant="h2" gutterBottom>
           Passenger Rights
@@ -37,25 +24,25 @@ function PassengerRights() {
           <strong>Breakdown of details:</strong>
         </Typography>
         <Typography variant="body1" paragraph>
-  <strong>Breakdown of details:</strong>
-  <div>
-    <ul>
-      <li>Business Relevant</li>
-      <ul>
-        <li>Types of disruption</li>
-        <li>Eligibility criteria</li>
-        <li>Compensation</li>
-        <li>Claiming Process</li>
-        <li>Time Limit for Claims</li>
-      </ul>
-      <li>Rights but Non-Relevant to Business</li>
-      <ul>
-        <li>Additional Rights</li>
-        <li>Right to Care (End / Mention)</li>
-      </ul>
-    </ul>
-  </div>
-</Typography>
+          <strong>Breakdown of details:</strong>
+          <div>
+            <ul>
+              <li>Business Relevant</li>
+              <ul>
+                <li>Types of disruption</li>
+                <li>Eligibility criteria</li>
+                <li>Compensation</li>
+                <li>Claiming Process</li>
+                <li>Time Limit for Claims</li>
+              </ul>
+              <li>Rights but Non-Relevant to Business</li>
+              <ul>
+                <li>Additional Rights</li>
+                <li>Right to Care (End / Mention)</li>
+              </ul>
+            </ul>
+          </div>
+        </Typography>
       </TextContainer>
     </>
   );
