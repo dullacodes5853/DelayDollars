@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
-import backgroundImage from '/Users/dullasiphone/delaydollar/src/assets/term.jpg';
+import backgroundImage from '/Users/dullasiphone/delaydollar/src/assets/yes.jpg';
 
 const Background = styled('div')({
   position: 'fixed',
