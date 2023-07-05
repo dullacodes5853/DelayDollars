@@ -1,0 +1,137 @@
+.landing-page {
+    position: relative;
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .landing-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Users/dullasiphone/delaydollar/src/assets/airport.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+  }
+  
+  
+  .framer-input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .framer-input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-heading {
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 981px;
+    height: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 1;
+    font-weight: 400;
+    font-style: normal;
+    font: "Hikou-Regular";
+    color: black;
+    font-size: 80px;
+    letter-spacing: 0em;
+    line-height: 1.1;
+    text-align: left;
+    position: relative;
+  }
+  
+  .p1 {
+    bottom: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    font-style: normal;
+    left: 25px;
+  }
+  
+  .button {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: min-content;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #0099ff;
+    z-index: 2;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 8;
+    position: absolute;
+    border-radius: 10px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .terms {
+    display: inline-block;
+    align-items: center;
+    font-size: small;
+    color: black;
+    font-weight: 1000;
+    padding: 10px 20px 10px 20px;
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.terms label {
+    margin-left: 10px;
+}
+
+
+  .button:hover {
+    background-color: #f7e62e;
+}
+
+.terms {
+    background-color: #696969;
+}
+
+.termscheck{
+ color: white;
+    ;
+}
