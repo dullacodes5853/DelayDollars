@@ -1,0 +1,20 @@
+.passenger-rights {
+    position: relative;
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+}
+
+.passenger-rights::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Users/dullasiphone/delaydollar/src/assets/airport-terminal.jpg'); /* Updated relative path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}

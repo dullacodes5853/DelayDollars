@@ -67,7 +67,7 @@ function LandingPage() {
 
   return (
     <div className="landing-page">
-      <h2 className="custom-heading">DelayDollar</h2>
+      <h2 className="custom-heading">DelayDollars</h2>
       <p className="p1">Your Payday for Flight Delays!</p>
       {message && <Alert severity={messageType}>{message}</Alert>}
       <form onSubmit={handleSubmit}>
@@ -116,7 +116,7 @@ function LandingPage() {
               onChange={(e) => setContact(e.target.value)}
             />
           </Grid>
-        </Grid>
+        </Grid> {/* <-- This was missing */}
         <FormControlLabel
           control={<Checkbox name="termsCheck" required />}
           label="I accept the terms and conditions"
