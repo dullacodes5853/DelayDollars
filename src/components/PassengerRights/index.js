@@ -1,8 +1,7 @@
 import React from 'react';
 import { Typography, Box } from '@mui/material';
 import { styled } from '@mui/system';
-import backgroundImage from './cancelled.jpg';
-
+import backgroundImage from '../assets/cancelled.jpg';
 const Background = styled('div')({
   position: 'fixed',
   top: 0,
