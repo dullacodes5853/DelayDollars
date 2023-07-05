@@ -6,8 +6,7 @@ import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Alert from '@mui/material/Alert';
 import './landingpage.css';
-import airportImage from '../../../assets/airport.jpg';
-
+import airportImage from '../../assets/airport.jpg'; // <-- Import image
 
 function LandingPage() {
   const [fullName, setFullName] = useState('');
@@ -68,7 +67,10 @@ function LandingPage() {
   };
 
   return (
-    <div className="landing-page">
+    <div 
+      className="landing-page"
+      style={{ backgroundImage: `url(${airportImage})` }} // <-- Set image as background
+    >
       <h2 className="custom-heading">DelayDollars</h2>
       <p className="p1">Your Payday for Flight Delays!</p>
       {message && <Alert severity={messageType}>{message}</Alert>}
