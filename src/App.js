@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar/index';
-import LandingPage from './components/LandingPage/index';
-import PassengerRights from './components/PassengerRights/index';
-import TermsAndConditions from './components/TermsAndConditions/index';
+import Navbar from '/Users/dullasiphone/delaydollar/src/components/Navbar/index.js'; // Corrected import path
+import LandingPage from '/Users/dullasiphone/delaydollar/src/components/LandingPage/index.js';
+import PassengerRights from '/Users/dullasiphone/delaydollar/src/components/PassengerRights/index.js';
+import TermsAndConditions from '/Users/dullasiphone/delaydollar/src/components/TermsAndConditions/index.js';
+
 function App() {
   const [fullName, setFullName] = useState('');
   const [ticketNumber, setTicketNumber] = useState('');
@@ -63,3 +64,4 @@ function App() {
 }
 
 export default App;
+
