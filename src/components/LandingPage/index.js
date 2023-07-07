@@ -30,7 +30,8 @@ function LandingPage() {
 
     try {
       console.log('Sending POST request to http://localhost:5001/register...');
-      const response = await fetch('/register', {
+      const response = await fetch('https://delaydollar-55b38d5186a2.herokuapp.com/register', {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
