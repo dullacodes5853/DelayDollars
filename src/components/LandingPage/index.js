@@ -29,7 +29,7 @@ function LandingPage() {
     console.log('Submitting form with user data:', userData);
 
     try {
-      console.log('Sending POST request to http://localhost:5001/register...');
+      console.log('Sending POST request to delaydollar');
       const response = await fetch('https://delaydollar-55b38d5186a2.herokuapp.com/register', {
 
         method: 'POST',
