@@ -6,6 +6,7 @@ import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Alert from '@mui/material/Alert';
 import './LandingPage.css';
+
 function LandingPage() {
   const [fullName, setFullName] = useState('');
   const [ticketNumber, setTicketNumber] = useState('');

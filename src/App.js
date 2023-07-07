@@ -25,7 +25,7 @@ function App() {
     console.log('Submitting form with user data:', userData);
 
     try {
-      const response = await fetch('http://localhost:5001/register', {
+      const response = await fetch('https://delaydollar-55b38d5186a2.herokuapp.com/register', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
