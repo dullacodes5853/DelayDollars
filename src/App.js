@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from './components/landingpage';
+import LandingPage from './components/landingpage/index';
 import PassengerRights from './components/PassengerRights';
 import TermsAndConditions from './components/TermsAndConditions';
 import Navbar from './components/Navbar';
