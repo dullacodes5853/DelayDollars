@@ -3,10 +3,10 @@ const sqlite3 = require('sqlite3').verbose();
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000; // Update the port to use process.env.PORT
 
 // Create a new SQLite database instance
-const db = new sqlite3.Database('/Users/dullasiphone/delaydollar/data/userinputs.db', (err) => {
+const db = new sqlite3.Database('userinputs.db', (err) => { // Update the path to the database file
   if (err) {
     console.error('Failed to connect to the SQLite database:', err.message);
     process.exit(1);
@@ -53,3 +53,4 @@ app.get('/register', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
