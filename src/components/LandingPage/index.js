@@ -30,7 +30,7 @@ function LandingPage() {
 
     try {
       console.log('Sending POST request to http://localhost:5001/register...');
-      const response = await fetch('http://localhost:5001/register', {
+      const response = await fetch('/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
