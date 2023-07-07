@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from '/Users/dullasiphone/delaydollar/src/components/LandingPage/index.js';
+import LandingPage from './components/LandingPage/index.js';
 import PassengerRights from './components/PassengerRights';
 import TermsAndConditions from './components/TermsAndConditions';
 import Navbar from './components/Navbar';
