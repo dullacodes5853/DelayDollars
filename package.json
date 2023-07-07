@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://delaydollarscorp.com/",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.7",
@@ -44,7 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
   }
 }

@@ -5,7 +5,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import Alert from '@mui/material/Alert';
-import './landingpage.css';
+import './landingpage.css'; // Importing CSS here
 
 function LandingPage() {
   const [fullName, setFullName] = useState('');
